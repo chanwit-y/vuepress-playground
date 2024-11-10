@@ -2,6 +2,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
+
 export default defineUserConfig({
   lang: 'en-US',
 
@@ -13,6 +14,7 @@ export default defineUserConfig({
 
     navbar: ['/', '/get-started'],
   }),
-
+  plugins: [
+  ],
   bundler: viteBundler(),
 })

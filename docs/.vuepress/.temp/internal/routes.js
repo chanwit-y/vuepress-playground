@@ -1,7 +1,7 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/chanwit_y/Desktop/Projects/banpu/vuepress-playground/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Home"} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/chanwit_y/Desktop/Projects/banpu/vuepress-playground/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Test Hi"} }],
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"/Users/chanwit_y/Desktop/Projects/banpu/vuepress-playground/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Get Started"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/chanwit_y/Desktop/Projects/banpu/vuepress-playground/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
