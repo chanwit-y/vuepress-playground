@@ -26,7 +26,7 @@ head:
 ---
 
 <script setup>
-    import Hi from '../../../../components/Hi.vue'
+    import Hi from '../../components/Hi.vue'
 </script>
 
 <Hi />
